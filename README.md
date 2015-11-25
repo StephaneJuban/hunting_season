@@ -156,6 +156,40 @@ comments_page_2[0]["id"]
 ```
 
 
+### [collections#index - Get newest collections](https://api.producthunt.com/v1/docs/collections/collections_index_get_newest_collections)
+
+Look up all collections.
+
+Collection attributes are listed in the API docs and accessed like `collection["name"]`, `collection["id"]`, etc.
+
+Example:
+```ruby
+client = ProductHunt::Client.new('mytoken')
+
+collections = client.collections
+collections[0]["name"] # -> "Newest collection"
+collections[0]["id"]   # -> 12345
+```
+
+
+### [collection#show - Get details of a collection](https://api.producthunt.com/v1/docs/collections/collection_show_get_details_of_a_collection)
+
+Look up a collection using a required numeric ID.
+
+Collection attributes are listed in the API docs and accessed like `collection["name"]`, `collection["id"]`, etc.
+
+Example:
+```ruby
+client = ProductHunt::Client.new('mytoken')
+
+collection = client.collection(1)
+collection["name"]
+# => "500 Startups: Demo Day"
+collection["id"]
+# => 1
+```
+
+
 ### Accessing associated records
 
 For some API responses, an ID reference to or partial details for an associated User or Post are supplied. `hunting_season` provides convenience methods to access the full details of these associated records.

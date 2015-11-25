@@ -1,0 +1,62 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+    "collections" : [
+        {
+            "id" : 50,
+            "name" : "Awesome Collection #59",
+            "title" : "Best new collection ever",
+            "created_at" : "POST_TIMESTAMP",
+            "updated_at" : "POST_TIMESTAMP",
+            "featured_at" : null,
+            "color" : "brown",
+            "subscriber_count" : 0,
+            "category_id" : null,
+            "collection_url" : "http://www.producthunt.com/@producthunter372/collections/awesome-collection-59",
+            "posts_count" : 0,
+            "user" : {
+                "id" : 50,
+                "name" : "Karl User the 374th",
+                "headline" : "Product Hunter",
+                "created_at" : "2015-11-05T04:34:26.846-08:00",
+                "username" : "producthunter372",
+                "website_url" : "http://awesome.io",
+                "image_url" : {
+                    "30px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=30&h=30",
+                    "32px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=32&h=32",
+                    "40px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=40&h=40",
+                    "44px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=44&h=44",
+                    "48px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=48&h=48",
+                    "50px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=50&h=50",
+                    "60px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=60&h=60",
+                    "64px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=64&h=64",
+                    "73px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=73&h=73",
+                    "80px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=80&h=80",
+                    "88px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=88&h=88",
+                    "96px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=96&h=96",
+                    "100px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=100&h=100",
+                    "110px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=110&h=110",
+                    "120px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=120&h=120",
+                    "132px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=132&h=132",
+                    "146px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=146&h=146",
+                    "160px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=160&h=160",
+                    "176px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=176&h=176",
+                    "220px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=220&h=220",
+                    "264px" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=264&h=264",
+                    "32px@2X" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=64&h=64",
+                    "40px@2X" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=80&h=80",
+                    "44px@2X" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=88&h=88",
+                    "88px@2X" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=176&h=176",
+                    "32px@3X" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=96&h=96",
+                    "40px@3X" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=120&h=120",
+                    "44px@3X" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=132&h=132",
+                    "88px@3X" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=264&h=264",
+                    "original" : "https://avatars-cdn.producthunt.com/50/original?auto=format&fit=crop&crop=faces&w=original&h=original"
+                },
+                "profile_url" : "http://www.producthunt.com/@producthunter372"
+            },
+            "background_image_url" : null
+        }
+    ]
+}
